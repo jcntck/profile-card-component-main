@@ -1,0 +1,19 @@
+$dark-cyan: hsl(185, 75%, 39%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-position: bottom 50vh right 50vw, top 50vh left 50vw;
+    background-repeat: no-repeat;
+    background-image:
+        url(../assets/images/bg-pattern-top.svg),
+        url(../assets/images/bg-pattern-bottom.svg);
+    background-color: $dark-cyan;
+    display: flex;
+    flex-direction: column;
+}

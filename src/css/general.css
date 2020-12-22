@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  height: 100vh;
+  background-position: bottom 50vh right 50vw, top 50vh left 50vw;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/bg-pattern-top.svg), url(../assets/images/bg-pattern-bottom.svg);
+  background-color: #19a2ae;
+  display: flex;
+  flex-direction: column; }
+
+main {
+  flex: 2 1; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
